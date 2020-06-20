@@ -1,3 +1,5 @@
+%修改在parameters里，第六个变量变成sigma，方便后续调用sigma；并加入了第九个变量，open，判断是否达到开仓条件
+
 classdef PairTradingSignal < handle
     
     properties(Access = public)
